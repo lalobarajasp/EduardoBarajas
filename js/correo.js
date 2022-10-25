@@ -55,7 +55,7 @@ btnSubmit1.addEventListener("click", function(e){
 
 
     // Validación Mensaje
-    if ((campoMensaje.value.length >= 10) && (campoMensaje.value.length <120) && !(campoMensaje.value.trim() == "") && (campoMensaje.value[0] != " ")) {
+    if ((campoMensaje.value.length >= 3) && (campoMensaje.value.length <120) && !(campoMensaje.value.trim() == "") && (campoMensaje.value[0] != " ")) {
         campoMensaje.classList.remove("is-invalid");
         campoMensaje.classList.add("is-valid");
         flag.campoMensaje = true

@@ -12,14 +12,16 @@ body{
 .lineageneral{
     width: 90%;
     text-align: center;
-    height: 0px;
-    border: 2px solid #B4161B;
+    border: 2px solid #D9D9D9;
 }
 /*-----------------INICIO------------------------------------*/
 .principal{
     background: #0D0D0D;
     min-height: 100vh;
+    position: relative;
 }
+
+
 .imgperfil{
     display: flex;
     justify-content: center;
@@ -119,15 +121,15 @@ body{
 .sect{
     font-size: 15px;
     padding-top: 1rem;
-    color: #73221A;
+    color: #D9D9D9;
     font-weight: 700px;
 }
 .proyect{
     padding-top: 1rem;
 }
 .cardpro{
-    background: #222222; 
-    margin-top: 2rem;
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, #222222 100%); 
+    margin-top: 0.5rem;
     width: 30%;
 }
 .card-img-top{
@@ -179,10 +181,11 @@ body{
     width: 30%;
     padding: 3rem;
     margin: 0.5rem;
-    border: 2px solid #3E518C;
+    border: 2px solid #D9D9D9;
+    background: #3E518C;
 }
 .cubo:hover{
-    background: #3E518C;
+    background: transparent;
     border: 2px solid #8C8C8C;
 }
 .skills{
@@ -227,7 +230,7 @@ body{
 
 footer{
     margin-top: 3rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
     color: #D9D9D9;
     background: linear-gradient(180deg, rgba(115, 34, 26, 0) 0%, #73221A 100%);
 }
