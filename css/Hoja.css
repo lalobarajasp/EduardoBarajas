@@ -1,0 +1,244 @@
+/*--------GENERAL---------------------------------------*/
+*{
+    margin: auto;
+    padding: 0%;
+}  
+/*  html{
+    height: 100%;
+} */
+body{
+    background: #0D0D0D;
+}
+.lineageneral{
+    width: 90%;
+    text-align: center;
+    height: 0px;
+    border: 2px solid #B4161B;
+}
+/*-----------------INICIO------------------------------------*/
+.principal{
+    background: #0D0D0D;
+    min-height: 100vh;
+}
+.imgperfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.navbar{
+    padding: 0%;
+    background-color: #D9D9D9!important;
+    border: none;
+}
+/*--------*/
+.titulo{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+.name{
+    position: relative;
+    padding-left: 1rem; 
+    background: #73221A;
+    color: white;
+}
+.paragraph{
+    position: relative;
+    padding-left: 1rem; 
+    background: #8C8C8C;
+    color: white;
+}
+.icon{
+    margin-top: 1rem;
+    text-align: center;
+}
+.bi{
+    color: white;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+.bi:hover{
+    color: #8C8C8C;
+}
+
+/*--------*/
+
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    padding: 5px 30px; /*Define ancho y largo de botón*/
+    font-weight: 700;
+    transition: color 0.5s, background 0.5s;
+    margin-top: 2rem;
+
+    background-color: transparent;
+    color: #D9D9D9; /*color de letras*/
+    border-radius: 15px;
+    border: 2px solid #73221A;
+    text-decoration: none;
+    transition: color 0.5s, background 0.5s;
+}
+.btn-ghost:hover{
+    color: #D9D9D9;
+    background: #7C352E;
+}
+.btn-ghost:active{
+    box-shadow: inset 0 0 20px #D9D9D9;
+}
+/*--------*/
+.modal-body{
+    text-align: center;
+}
+.descripcion{
+    margin-top: 2rem;
+    text-align: justify;
+}
+.btn-secondary{
+    color: #D9D9D9;
+    background: #3E518C;
+    transition: color 0.5s, background 0.5s;
+   
+}
+.btn-secondary:hover{
+    color: #D9D9D9;
+    background: #0D0D0D;
+   
+}
+.btn-secondary:active{
+    box-shadow: inset 0 0 20px white;
+}
+/*--------*/
+/*-----------------PROYECTOS------------------------------------*/
+.container{
+
+}
+.featuerdp{
+    padding-bottom: 2rem;
+}
+.sect{
+    font-size: 15px;
+    padding-top: 1rem;
+    color: #73221A;
+    font-weight: 700px;
+}
+.proyect{
+    padding-top: 1rem;
+}
+.cardpro{
+    background: #222222; 
+    margin-top: 2rem;
+    width: 30%;
+}
+.card-img-top{
+    padding-top: 1rem;
+}
+.card-title{
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+}
+.card-text{
+    color: #8C8C8C;
+    text-align: justify;
+}
+.lenguaje{
+    color: #D9D9D9;
+    text-align: end;
+    font-size: 12px;
+
+}
+.iconcard{
+    text-align: end;
+}
+.new{
+    color: #949494;
+}
+.new:hover{
+    color: #D9D9D9;
+}
+
+/*----------*/
+.skillparagh{
+    text-align: center;
+    color: #D9D9D9;
+    padding-top: 2rem;
+}
+
+.containercubo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iconlang{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.cubo{
+    width: 30%;
+    padding: 3rem;
+    margin: 0.5rem;
+    border: 2px solid #3E518C;
+}
+.cubo:hover{
+    background: #3E518C;
+    border: 2px solid #8C8C8C;
+}
+.skills{
+    padding-bottom: 2rem;
+}
+.letraform{
+    font-size: 20px;
+    color: #D9D9D9;
+}
+.formulario{
+    width: 50%;
+    margin-left: 40%;
+    color: #D9D9D9;
+    background: #3E518C;
+    padding: 1.5rem;
+}
+.form-control{
+    background: #949494;
+    border-radius: 8px;
+}
+.btn-primary{
+    background-color: #73221A;
+}
+.btn-primary:hover{
+    background: transparent;
+    border: 2px solid #D9D9D9 ;
+}
+
+footer{
+    margin-top: 3rem;
+    padding: 0.3rem;
+    color: #D9D9D9;
+    background: linear-gradient(180deg, rgba(115, 34, 26, 0) 0%, #73221A 100%);
+}
+.footerparagh{
+    font-size: 12px;
+}
+
+
+@media (max-width: 576px) { 
+    .cardpro{
+        background: #222222;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .cubo{
+        width: 70%;
+        padding: 3rem;
+        margin: 0.5rem;
+    }
+    .formulario{
+        width: 80%;
+        margin-left: 15%;
+       
+    }
+}
+
